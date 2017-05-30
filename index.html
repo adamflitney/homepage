@@ -7,7 +7,132 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h3>Well, this is embarassing. I have nothing to show you yet.</h3>
+        <nav class="nav">
+
+  <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+  <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+  <span class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+
+  <!-- This "nav-menu" is hidden on mobile -->
+  <!-- Add the modifier "is-active" to display it on mobile -->
+  <div class="nav-right nav-menu">
+    <a class="nav-item">
+      Home
+    </a>
+    <a class="nav-item">
+      About Me
+    </a>
+    <a class="nav-item">
+      Blog
+    </a>
+    <a class="nav-item" href="#projects">
+      Projects
+    </a>
+  </div>
+</nav>
+
+<section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Adam Flitney. Coder.
+      </h1>
+      <h2 class="subtitle">
+        At your service.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">Projects</h1>
+        <h2 class="subtitle">
+          Here are some of the projects I am working/have worked on
+        </h2>
+      </div>
+      <div class="card">
+  <div class="card-image">
+    <figure class="image is-16by9">
+      <img src="https://i.gyazo.com/769a4e4a7f468de8fb8c21d1e9549dbb.png" alt="SuperPomo!">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4">Super Pomo!</p>
+      </div>
+    </div>
+
+    <div class="content">
+      This is a simple web based pomodoro timer I knocked up.<br/>
+      Like most of my early projects I am creating tools for myself partly to learn and partly because I am extremely picky with functionality.
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a class="card-footer-item" href="https://adamflitney.github.io/SuperPomo/">Live Demo</a>
+    <a class="card-footer-item" href="https://github.com/adamflitney/SuperPomo">Source</a>
+  </footer>
+</div>
+
+    </div>
+  </section>
+
+
+  <section class="hero is-info is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        This space intentionally left blank
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+    <div class="container">
+      <div class="heading">
+        <h1 class="title"><strong>Master Plan!</strong></h1>
         
+        </div>
+        <h3>To maximise learning, motivation and ...profit!</h3>
+        <br/>
+        <div class="content">
+        <h2><em>No React/ ReactNative / Mobile Apps just yet. Focus on basic webdev/webdesign</em></h2>
+ 
+<ul><strong>Golden Rules:</strong>
+<li>Always start simple and then iterate!</li>
+<li>Start static where possible and then add functionality.</li>
+<li>Start local where possible and then add functionality.</li>
+<li>Move onto next project and then return later rather than getting stuck.</li>
+</ul>
+ 
+<ul><strong>Basics:</strong>
+<li>Homepage / portfolio page – entry point for everything else</li>
+<li>Blog page – to document what I’m working on and issues learnings etc</li>
+<li>Pomodoro Timer – to manage my time when working for longer periods</li>
+<li>Todo list / trello style Kanban board (trello.com for inspiration) – to manage my tasks</li>
+</ul>
+ 
+<ul><strong>Web Apps:</strong>
+<li>Flashcard app (just for kanji at first)</li>
+<li>Quiz App (iknow.jp for inspiration)</li>
+<li>Keto macro calculator</li>
+<li>Keto diet manager (myfitnesspal and amy’s requirements for inspiration)</li>
+<li>Roguelike game (freecodecamp challenge details for inspiration)</li>
+</ul>
+</div>
+    </div>
+  </section>
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css" />
+        <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/yeti/bulmaswatch.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </body>
 </html>
